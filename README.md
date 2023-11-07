@@ -9,7 +9,7 @@ A função `getUniqueSubsets` é responsável por gerar os subconjuntos únicos 
 ### Uso da função
 
 ```javascript
-import getUniqueSubsets from "./src/getUniqueSubsets";
+const getUniqueSubsets require("./src/getUniqueSubsets");
 
 const nums = [1, 2, 3];
 const subsets = getUniqueSubsets(nums);
