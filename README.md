@@ -18,9 +18,9 @@ console.log(subsets);
 
 ## Running the Tests
 
-This repository includes tests written using the native Node.js test library. The tests cover different scenarios to ensure that the `getUniqueSubsets` function works correctly.
+This repository includes tests written using the Jest test library. The tests cover different scenarios to ensure that the `getUniqueSubsets` function works correctly.
 
-Make sure you have Node.js version 21.1.0 or higher installed.
+Make sure you have Node.js and installed the dependencies.
 
 ### Steps to Run the Tests
 
