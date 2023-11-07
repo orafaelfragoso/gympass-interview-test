@@ -1,54 +1,54 @@
 # getUniqueSubsets
 
-Este repositório contém uma função em JavaScript chamada `getUniqueSubsets` que gera todos os subconjuntos únicos de um conjunto de números inteiros, conforme especificado no problema.
+This repository contains a JavaScript function called `getUniqueSubsets` that generates all unique subsets of a set of integer numbers, as specified in the problem.
 
-## Função `getUniqueSubsets`
+## Function `getUniqueSubsets`
 
-A função `getUniqueSubsets` é responsável por gerar os subconjuntos únicos de um conjunto de números inteiros. Ela utiliza manipulação de bits para otimizar o processo de geração de subconjuntos. A função aceita um array de números inteiros como entrada e retorna um array de arrays contendo todos os subconjuntos únicos.
+The `getUniqueSubsets` function is responsible for generating unique subsets of a set of integer numbers. It uses bitwise manipulation to optimize the subset generation process. The function takes an array of integer numbers as input and returns an array of arrays containing all the unique subsets.
 
-### Uso da função
+### Using the Function
 
 ```javascript
-const getUniqueSubsets require("./src/getUniqueSubsets");
+const getUniqueSubsets = require("./src/getUniqueSubsets");
 
 const nums = [1, 2, 3];
 const subsets = getUniqueSubsets(nums);
 console.log(subsets);
 ```
 
-## Executando os Testes
+## Running the Tests
 
-Este repositório inclui testes escritos usando a lib de testes nativa do node. Os testes cobrem diferentes cenários para garantir que a função `getUniqueSubsets` funcione corretamente.
+This repository includes tests written using the native Node.js test library. The tests cover different scenarios to ensure that the `getUniqueSubsets` function works correctly.
 
-Certifique-se de que você possui o Node.js 21.1.0 ou superior.
+Make sure you have Node.js version 21.1.0 or higher installed.
 
-### Passos para Executar os Testes
+### Steps to Run the Tests
 
-1. Clone este repositório para o seu ambiente local.
+1. Clone this repository to your local environment.
 
-2. Navegue para a pasta do repositório:
+2. Navigate to the repository folder:
 
 ```bash
-cd caminho-para-o-repositorio
+cd path-to-repository
 ```
 
-3. Execute os testes:
+3. Run the tests:
 
 ```bash
 npm test
 ```
 
-Isso executará os testes definidos no arquivo de teste e exibirá os resultados no terminal.
+This will execute the tests defined in the test file and display the results in the terminal.
 
-## Cenários de Teste
+## Test Scenarios
 
-Os testes incluem os seguintes cenários:
+The tests include the following scenarios:
 
-1. Conjunto vazio resulta em apenas um subconjunto (conjunto vazio).
-2. Geração de subconjuntos para um pequeno conjunto onde a ordem não importa.
-3. Conjuntos iguais devem ser considerados em um subconjunto.
-4. Manipulação eficiente de um conjunto grande.
-5. Inclusão de um conjunto vazio para um conjunto não vazio e um conjunto vazio.
-6. Dois conjuntos vazios resultam em apenas um subconjunto (conjunto vazio).
+1. An empty set results in only one subset (an empty set).
+2. Generating subsets for a small set where order does not matter.
+3. Equal sets should be considered in a subset.
+4. Efficient handling of a large set.
+5. Inclusion of an empty set for a non-empty set and an empty set.
+6. Two empty sets result in only one subset (an empty set).
 
-Certifique-se de que os testes passam corretamente após a execução.
+Make sure the tests pass correctly after execution.
